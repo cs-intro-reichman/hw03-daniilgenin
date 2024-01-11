@@ -18,8 +18,7 @@ public class Calendar {
 	    // Prints each date dd/mm/yyyy in a separate line. If the day is a Sunday, prints "Sunday".
 	    // The following variable, used for debugging purposes, counts how many days were advanced so far.
 		int now = Integer.parseInt(args[0]);
-		int debugDaysCounter = 0;		
-	    //// Write the necessary initialization code, and replace the condition
+		//// Write the necessary initialization code, and replace the condition
 	    //// of the while loop with the necessary condition 
 	 	while (year <= now) {
 			if (year == now){
@@ -32,12 +31,6 @@ public class Calendar {
 			}
 	 		//// Write the body of the while
 	 		advance();
-	 		debugDaysCounter++;
-	 		//// If you want to stop the loop after n days, replace the condition of the
-	 		//// if statement with the condition (debugDaysCounter == n)
-	 		if (false) { 
-	 			break;
-	 		}
         }
 	 	//// Write the necessary ending code here
 	 }
